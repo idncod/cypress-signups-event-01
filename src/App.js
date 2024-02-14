@@ -32,7 +32,7 @@ const submitHandler = async (e) =>
   return (
     <div className="emails">
       <form onSubmit={submitHandler} className="form">
-        <p>Register to attend a session wit a Cypress representative</p>
+        <p>Register to attend a session with a Cypress representative</p>
         <input className="email-input" onChange={inputHandler} placeholder="Email" type="email" value={input}></input>
         <button className="email-button">Count me in!</button>
       </form>

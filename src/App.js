@@ -1,43 +1,28 @@
-import './App.css';
-import { useState } from 'react';
-import { db } from './firebase';
-import { addDoc, collection, serverTimestamp } from 'firebase/firestore';
+import React from "react";
+import { Routes, Route } from 'react-router-dom';
 
-function App() {
+import Header from './components/Header/header';
+import Footer from './components/Footer/footer';
+import Home from './pages/home/home';
+import CypressInfo from './pages/cypress-info/cypress-info';
+import CypressInfoCert from './pages/cypress-info-cert/cypress-info-cert';
+import CypressCapability from './pages/cypress-capability/cypress-capability';
+import CypressCapabilityCert from './pages/cypress-capability-cert/cypress-capability-cert';
 
-const [input, setInput] = useState(""); 
-
-const inputHandler = (e) =>
-{
-  setInput(e.target.value);
-}
-
-
-const submitHandler = async (e) =>
-{
-  e.preventDefault();
-
-  if(input)
-  {
-    await addDoc(collection(db, "emails"),
-      {
-        email: input,
-        timestamp: serverTimestamp(),
-      })
-      setInput("");
-  }
-}
-
-
-  return (
-    <div className="emails">
-      <form onSubmit={submitHandler} className="form">
-        <p>Register to attend a session with a Cypress representative</p>
-        <input className="email-input" onChange={inputHandler} placeholder="Email" type="email" value={input}></input>
-        <button className="email-button">Count me in!</button>
-      </form>
-    </div>
-  );
+const App = () => {
+	return (
+		<>
+			<Header />
+			<Routes>
+				<Route exact path='/' Component={Home}></Route>
+				<Route exact path='/cypress-info' Component={CypressInfo}></Route>
+				<Route exact path='/cypress-info-certificate' Component={CypressInfoCert}></Route>
+				<Route exact path='/cypress-capability' Component={CypressCapability}></Route>
+				<Route exact path='/cypress-power-certificate' Component={CypressCapabilityCert}></Route>
+			</Routes>
+			<Footer />
+		</>
+	);
 }
 
 export default App;

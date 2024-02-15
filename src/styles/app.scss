@@ -1,0 +1,126 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+	background-color: lightcyan;
+}
+
+// .page-container {
+//     font-family: $site-default-font-family;
+//     font-size: $site-default-mobile-font-size;
+//     font-weight: $site-regular;
+//     color: $site-text-color;
+//     line-height: 24px;
+//     letter-spacing: 0.5px;
+//     position: relative;
+
+//     @media (min-width: $breakpoint-sm-down) {
+//         font-size: $site-default-font-size;
+//     }
+// }
+
+a,
+[role='link'] {
+    color: $link-color;
+    text-decoration: none;
+
+    &:link,
+    &:visited {
+        color: $link-color;
+        text-decoration: none;
+    }
+
+    &:hover {
+        color: $link-color-hover;
+        text-decoration: underline;
+    }
+
+    &:focus {
+        color: $link-color-focus;
+        text-decoration: underline;
+    }
+
+    &:active {
+        color: $link-color-active;
+        text-decoration: none;
+    }
+
+    &[role='link'] {
+        cursor: pointer;
+        color: $link-color;
+    }
+
+    &.disabled-link {
+        pointer-events: none;
+    }
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    // @media (min-width: $breakpoint-sm-down) {
+    //     width: 536px;
+    // }
+
+    // @media (min-width: $breakpoint-md-down) {
+    //     width: 840px;
+    // }
+
+    // @media (min-width: $breakpoint-lg-down) {
+    //     width: 1180px;
+    // }
+
+    // @media (min-width: $breakpoint-xl-down) {
+    //     width: 1360px;
+    // }
+}
+
+.relative {
+    position: relative;
+}
+
+.bold {
+    font-weight: $site-bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.inline-block {
+    display: inline-block;
+
+    &.second {
+        margin-left: 10px;
+    }
+}
+
+section {
+    margin-bottom: 20px;
+
+    &.last {
+        margin-bottom: 0;
+    }
+}

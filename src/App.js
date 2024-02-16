@@ -35,6 +35,7 @@ const submitHandler = async (e) =>
         <p>Register to attend a session with a Cypress representative</p>
         <input className="email-input" onChange={inputHandler} placeholder="Email" type="email" value={input}></input>
         <button className="email-button">Count me in!</button>
+		it worked
       </form>
     </div>
   );

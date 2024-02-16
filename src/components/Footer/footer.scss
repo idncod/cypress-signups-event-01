@@ -3,7 +3,27 @@
 .footer-container {
 	padding-top: $spacing-2x;
 	padding-bottom: $spacing-2x;
-	font-size: 14px;
-	font-weight: $site-bold;
 	text-align: center;
+
+	.social-media-container {
+		display: flex;
+		justify-content: center;
+		gap: $spacing-2x;
+		margin-bottom: $spacing-2x;
+
+		.fa-brands {
+			font-size: 28px;
+		}
+	}
+
+	.trademark {
+		font-size: 14px;
+		font-weight: $site-bold;
+		margin-bottom: $spacing-1x;
+	}
+	
+	.cypress-link-container {
+		font-size: 14px;
+		margin-bottom: $spacing-2x;
+	}
 }

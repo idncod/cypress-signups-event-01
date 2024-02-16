@@ -39,22 +39,26 @@ a,
     &:link,
     &:visited {
         color: $link-color;
-        text-decoration: none;
+		font-weight: $site-bold;
+        text-decoration: underline;
     }
 
     &:hover {
         color: $link-color-hover;
+		font-weight: $site-bold;
         text-decoration: underline;
     }
 
     &:focus {
         color: $link-color-focus;
+		font-weight: $site-bold;
         text-decoration: underline;
     }
 
     &:active {
         color: $link-color-active;
-        text-decoration: none;
+		font-weight: $site-bold;
+        text-decoration: underline;
     }
 
     &[role='link'] {

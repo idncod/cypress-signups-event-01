@@ -99,12 +99,12 @@ const CypressInfo = () => {
 				</ol>
 
 				<section className="join-us-container">
-					Join us on <span class="join-us">Thursday, February 29 at 10pm EST</span> via ZOOM at ...
+					<i class="fa-solid fa-link"></i> Join us on <span class="join-us">Thursday, February 29 at 10pm EST</span> via ZOOM at ...
 				</section>
 
 				<div className="spacer">&#160;</div>
 
-				<div className="bold">Early Questions from Students about Cypress:</div>
+				{/* <div className="bold">Early Questions from Students about Cypress:</div>
 
 				<ol>
 					<li>
@@ -185,7 +185,7 @@ const CypressInfo = () => {
 					** Where possible, answers to some of these preliminary questions will 
 					be built into the presentation so that the material stays relevant to 
 					the types of questions already asked.
-				</section>
+				</section> */}
 
 				<section>
 					Do you have other questions? Please fill out the form below and Cyress representative 
@@ -196,7 +196,7 @@ const CypressInfo = () => {
 					<QuestionsToRepForm />
 				</section>
 
-				<div className="bold">One Example Reference for Outline Point #3:</div>
+				{/* <div className="bold">One Example Reference for Outline Point #3:</div>
 				<section>
 					A recent use case from a large US and international organization involves a 
 					bug that was reported to Cypress &ndash; tests started to fail but the same 
@@ -206,7 +206,7 @@ const CypressInfo = () => {
 					module that could have impacted their customers. The results being reported 
 					from Cypress were 100% accurate. Had they been using only Selenium, that 
 					flaw would have slipped through the cracks.
-				</section>
+				</section> */}
 			</div>
 		</div>
 	);

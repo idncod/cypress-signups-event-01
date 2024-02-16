@@ -12,7 +12,7 @@
 
 	ul, ol {
 		li {
-			line-height: 40px;
+			line-height: 30px;
 		}
 	}
 
@@ -29,5 +29,16 @@
 	
 	.spacer {
 		margin-top: 40px;
+	}
+
+
+
+
+	@media (min-width: $breakpoint-md-down) {
+		ul, ol {
+			li {
+				line-height: 40px;
+			}
+		}
 	}
 }

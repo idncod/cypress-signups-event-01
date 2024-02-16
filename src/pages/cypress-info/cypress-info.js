@@ -31,7 +31,7 @@ const CypressInfo = () => {
 
 				
 				<section className={`image-container ${imgSizeCss}`}>
-					<a role="link" onClick={onImageClick}>
+					<a href="javascript:void(0);" onClick={onImageClick}>
 						<img src={FrameworkComparisonImg} alt="Framework Comparison" className="img-fluid" />
 					</a>
 				</section>

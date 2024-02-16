@@ -1,4 +1,4 @@
-import './App.css';
+
 import { useState } from 'react';
 import { db } from './firebase';
 import { addDoc, collection, serverTimestamp } from 'firebase/firestore';

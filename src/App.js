@@ -1,44 +1,20 @@
 
-import { useState } from 'react';
-import { db } from './firebase';
-import { addDoc, collection, serverTimestamp } from 'firebase/firestore';
+import React from "react";
+import { Routes, Route } from 'react-router-dom';
 
-function App() {
+import Home from './pages/home/home';
+import CypressInfo from './pages/cypressinfo/cypressinfo';
 
-const [input, setInput] = useState(""); 
+const App = () => {
+	return (
+		<div className="page-container">
 
-const inputHandler = (e) =>
-{
-  setInput(e.target.value);
-}
-
-
-const submitHandler = async (e) =>
-{
-  e.preventDefault();
-
-  if(input)
-  {
-    await addDoc(collection(db, "emails"),
-      {
-        email: input,
-        timestamp: serverTimestamp(),
-      })
-      setInput("");
-  }
-}
-
-
-  return (
-    <div className="emails">
-      <form onSubmit={submitHandler} className="form">
-        <p>Register to attend a session with a Cypress representative</p>
-        <input className="email-input" onChange={inputHandler} placeholder="Email" type="email" value={input}></input>
-        <button className="email-button">Count me in!</button>
-		hi hi
-      </form>
-    </div>
-  );
+			<Routes>
+				<Route exact path='/' Component={Home}></Route>
+				<Route exact path='/cypressinfo' Component={CypressInfo}></Route>
+			</Routes>
+		</div>
+	);
 }
 
 export default App;

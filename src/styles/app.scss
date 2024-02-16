@@ -1,6 +1,6 @@
 @import 'variables.scss';
 @import 'mixins.scss';
-
+@import 'buttons.scss';
 
 *,
 *:before,
@@ -76,22 +76,6 @@ a,
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
-
-    // @media (min-width: $breakpoint-sm-down) {
-    //     width: 536px;
-    // }
-
-    // @media (min-width: $breakpoint-md-down) {
-    //     width: 840px;
-    // }
-
-    // @media (min-width: $breakpoint-lg-down) {
-    //     width: 1180px;
-    // }
-
-    // @media (min-width: $breakpoint-xl-down) {
-    //     width: 1360px;
-    // }
 }
 
 .relative {
@@ -128,4 +112,9 @@ section {
     &.last {
         margin-bottom: 0;
     }
+}
+
+.inline-error {
+	font-size: 14px;
+	color: $error-color;
 }

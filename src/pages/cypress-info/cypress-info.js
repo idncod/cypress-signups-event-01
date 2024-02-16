@@ -1,6 +1,6 @@
 import FrameworkComparisonImg from './framewors-comparison.jpg';
 import { useState } from 'react';
-import QuestionsToRepForm from '../../components/QuestionsToRepForm/questions-to-rep-form';
+import SupportForm from '../../components/SupportForm/support-form';
 import './cypress-info.scss';
 
 const CypressInfo = () => {
@@ -41,14 +41,14 @@ const CypressInfo = () => {
 					Playwright and Selenium?</span>
 				</section>
 
-				<div className="bold"><i class="fa-regular fa-calendar-check"></i> Agenda:</div>
+				<div className="bold"><i className="fa-regular fa-calendar-check"></i> Agenda:</div>
 				<ul>
 					<li><span className="bold">Session length:</span> 60 minutes</li>
 					<li><span className="bold">Presentation length</span> 45 minutes</li>
 					<li><span className="bold">Reserved Q&A</span> 15 minutes</li>
 				</ul>
 
-				<div className="bold"><i class="fa-regular fa-rectangle-list"></i> Outline:</div>
+				<div className="bold"><i className="fa-regular fa-rectangle-list"></i> Outline:</div>
 				<ol>
 					<li>
 						<span className="bold">Introduction.</span>&#160;
@@ -99,7 +99,7 @@ const CypressInfo = () => {
 				</ol>
 
 				<section className="join-us-container">
-					<i class="fa-solid fa-link"></i> Join us on <span class="join-us">Thursday, February 29 at 10pm EST</span> via ZOOM at ...
+					<i className="fa-solid fa-link"></i> Join us on <span className="join-us">Thursday, February 29 at 10pm EST</span> via ZOOM at ...
 				</section>
 
 				<div className="spacer">&#160;</div>
@@ -193,7 +193,7 @@ const CypressInfo = () => {
 				</section>
 
 				<section>
-					<QuestionsToRepForm />
+					<SupportForm source="cypress_info_questionnaire" displayMessage />
 				</section>
 
 				{/* <div className="bold">One Example Reference for Outline Point #3:</div>

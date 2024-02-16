@@ -7,8 +7,8 @@ const Header = () => {
 		<div className="header-container">
 			<div className="container">
 				<div className="logo-container">
-					<div class="redrover-logo"><RedroverSchoolLogo /></div>
-					<div class="cypress-logo"><CypressLogo /></div>
+					<div className="redrover-logo"><RedroverSchoolLogo /></div>
+					<div className="cypress-logo"><CypressLogo /></div>
 				</div>
 				
 			</div>

@@ -1,0 +1,18 @@
+@import './variables.scss';
+
+.btn-primary {
+	background-color: $button-color;
+	border-color: $button-color;
+
+	&:hover {
+		background-color: $button-color-hover;
+	}
+
+	&:focus {
+		background-color: $button-color-focus;
+	}
+
+	&:active {
+		background-color: $button-color-active;
+	}
+}

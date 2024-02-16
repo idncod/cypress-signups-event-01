@@ -15,11 +15,22 @@ $link-color-hover: #616efdc0;
 $link-color-focus: #616efdc0;
 $link-color-active: #4956e3;
 
+// buttons
+$button-color: #4956e3;
+$button-color-hover: #616efdc0;
+$button-color-focus: #616efdc0;
+$button-color-active: #4956e3;
+
 // spacing
 $spacing-1x: 8px;
 $spacing-2x: 16px;
 $spacing-3x: 24px;
 
 // responsive breakpoints
+$breakpoint-xs-down: 320px;
+$breakpoint-xs-up: 575px;
+$breakpoint-sm-down: 576px;
 $breakpoint-sm-up: 767px;
 $breakpoint-md-down: 768px;
+
+$error-color: red;

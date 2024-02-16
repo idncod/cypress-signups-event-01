@@ -25,11 +25,7 @@ const CertificateRegistrationForm = () => {
 	return (
 		<div className="certificate-registration-form-container">
 			<form onSubmit={submitHandler} className="form">
-				<div className="title">Register to receive your certificate</div>
 
-				<section>
-					Please provide the name and email address that will be used for the certificate.
-				</section>
 
 				<input className="email-input" onChange={inputHandler} placeholder="Email" type="email" value={input}></input>
 				<button className="email-button">Count me in!</button>

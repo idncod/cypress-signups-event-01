@@ -1,4 +1,4 @@
-import QuestionsToRepForm from '../../components/QuestionsToRepForm/questions-to-rep-form';
+import SupportForm from '../../components/SupportForm/support-form';
 import './cypress-capability.scss';
 
 const CypressCapability = () => {
@@ -18,14 +18,14 @@ const CypressCapability = () => {
 					automation framework should look like.
 				</section>
 
-				<div className="bold"><i class="fa-regular fa-calendar-check"></i> Agenda:</div>
+				<div className="bold"><i className="fa-regular fa-calendar-check"></i> Agenda:</div>
 				<ul>
 					<li><span className="bold">Session length:</span> 60 minutes</li>
 					<li><span className="bold">Presentation length</span> 45 minutes</li>
 					<li><span className="bold">Reserved Q&A</span> 15 minutes</li>
 				</ul>
 
-				<div className="bold"><i class="fa-regular fa-rectangle-list"></i> Outline:</div>
+				<div className="bold"><i className="fa-regular fa-rectangle-list"></i> Outline:</div>
 				<ol>
 					<li>
 						<span className="bold">Overview of Cypress</span>;
@@ -59,7 +59,7 @@ const CypressCapability = () => {
 				</ol>
 
 				<section className="join-us-container">
-					Join us on <span class="join-us">Thursday, March 7 at 10pm EST</span> via ZOOM at ...
+					Join us on <span className="join-us">Thursday, March 7 at 10pm EST</span> via ZOOM at ...
 				</section>
 
 				<div className="spacer">&#160;</div>
@@ -70,7 +70,7 @@ const CypressCapability = () => {
 				</section>
 
 				<section>
-					<QuestionsToRepForm />
+					<SupportForm source="cypress_capability_questionnaire" displayMessage />
 				</section>
 			</div>
 		</div>

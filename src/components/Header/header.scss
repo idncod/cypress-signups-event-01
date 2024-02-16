@@ -1,8 +1,53 @@
 @import '../../styles/variables.scss';
 
 .header-container {
-	padding-top: $spacing-default;
-	padding-bottom: $spacing-default;
+	padding-top: $spacing-3x;
+	padding-bottom: $spacing-3x;
+
+	.logo-container {
+		display: flex;
+		gap: 50px;
+
+		.redrover-logo {
+			svg {
+				width: 160px;
+				height: 23px;
+	
+				.svg-rrs-logo-0 {
+					fill: #230040;
+				}
+			}
+		}
+		
+		.cypress-logo {
+			svg {
+				width: 57px;
+				height: 23px;
+			}
+		}
+	}
+
+
+
+	@media (min-width: $breakpoint-md-down) {
+		.logo-container {
+			gap: 100px;
+	
+			.redrover-logo {
+				svg {
+					width: 250px;
+					height: 35px;
+				}
+			}
+
+			.cypress-logo {
+				svg {
+					width: 87px;
+					height: 35px;
+				}
+			}
+		}
+	}
 }
 
 //poppins 300 500 

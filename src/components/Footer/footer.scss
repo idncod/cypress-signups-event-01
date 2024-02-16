@@ -1,7 +1,9 @@
 @import '../../styles/variables.scss';
 
 .footer-container {
-	padding-top: $spacing-default;
+	padding-top: $spacing-2x;
+	padding-bottom: $spacing-2x;
+	font-size: 14px;
+	font-weight: $site-bold;
 	text-align: center;
-	padding-bottom: $spacing-default;
 }

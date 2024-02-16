@@ -13,22 +13,23 @@
 body {
     margin: 0;
     padding: 0;
-	background-color: lightcyan;
+	background-color: #f6fffa;
 }
 
-// .page-container {
-//     font-family: $site-default-font-family;
-//     font-size: $site-default-mobile-font-size;
-//     font-weight: $site-regular;
-//     color: $site-text-color;
-//     line-height: 24px;
-//     letter-spacing: 0.5px;
-//     position: relative;
+.page-container {
+    font-family: $site-default-font-family;
+    font-size: $site-default-mobile-font-size;
+    font-weight: $site-light;
+    color: $site-text-color;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+	background-image: linear-gradient(#d4ffe5, #f6fffa);
+    position: relative;
 
-//     @media (min-width: $breakpoint-sm-down) {
-//         font-size: $site-default-font-size;
-//     }
-// }
+    @media (min-width: $breakpoint-md-down) {
+        font-size: $site-default-font-size;
+    }
+}
 
 a,
 [role='link'] {

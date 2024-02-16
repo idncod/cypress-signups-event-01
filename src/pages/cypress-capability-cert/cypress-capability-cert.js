@@ -1,8 +1,10 @@
-
+import CertificateRegistrationForm from "../../components/CertificateRegistrationForm/certificate-registration-form";
 
 const CypressCapabilityCert = () => {
 	return (
-		<>CypressCapability Cert page</>
+		<div className="container">
+			<CertificateRegistrationForm />
+		</div>
 	);
 };
 

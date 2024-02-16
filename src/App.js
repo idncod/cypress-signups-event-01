@@ -11,7 +11,7 @@ import CypressCapabilityCert from './pages/cypress-capability-cert/cypress-capab
 
 const App = () => {
 	return (
-		<>
+		<div className="page-container">
 			<Header />
 			<Routes>
 				<Route exact path='/' Component={Home}></Route>
@@ -21,7 +21,7 @@ const App = () => {
 				<Route exact path='/cypress-power-certificate' Component={CypressCapabilityCert}></Route>
 			</Routes>
 			<Footer />
-		</>
+		</div>
 	);
 }
 

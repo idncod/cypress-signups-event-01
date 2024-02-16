@@ -1,4 +1,4 @@
-$site-default-font-family: 'Outfit', sans-serif;
+$site-default-font-family: "Poppins", sans-serif;;
 $site-default-font-size: 18px;
 $site-default-mobile-font-size: 16px;
 $site-light: 300;
@@ -8,13 +8,18 @@ $site-extra-bold: 600;
 $material-icons: 'Material Icons';
 
 // common colors
-$site-primary-color: #000;
-$site-text-color: #000;
+$site-text-color: #36394d;
 
-$link-color: $site-primary-color;
-$link-color-hover: #39745e;
-$link-color-focus: #5b8c7a;
-$link-color-active: #6d9888;
+$link-color: #4956e3;
+$link-color-hover: #4956e3;
+$link-color-focus: #4956e3;
+$link-color-active: #4956e3;
 
 // spacing
-$spacing-default: 16px;
+$spacing-1x: 8px;
+$spacing-2x: 16px;
+$spacing-3x: 24px;
+
+// responsive breakpoints
+$breakpoint-sm-up: 767px;
+$breakpoint-md-down: 768px;

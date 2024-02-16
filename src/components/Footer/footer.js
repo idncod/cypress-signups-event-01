@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<div className="footer-container">
 			<div className="container">
-				footer here!!!
+				RedRover.School {new Date().getFullYear()}
 			</div>
 		</div>
 	);

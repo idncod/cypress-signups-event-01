@@ -1,0 +1,70 @@
+@import '../../styles/variables.scss';
+
+.header-container {
+	padding-top: $spacing-3x;
+	padding-bottom: $spacing-3x;
+
+	.logo-container {
+		display: flex;
+		gap: 50px;
+
+		.redrover-logo {
+			svg {
+				width: 160px;
+				height: 23px;
+	
+				.svg-rrs-logo-0 {
+					fill: #230040;
+				}
+			}
+		}
+		
+		.cypress-logo {
+			svg {
+				width: 57px;
+				height: 23px;
+			}
+		}
+	}
+
+
+
+	@media (min-width: $breakpoint-md-down) {
+		.logo-container {
+			gap: 100px;
+	
+			.redrover-logo {
+				svg {
+					width: 250px;
+					height: 35px;
+				}
+			}
+
+			.cypress-logo {
+				svg {
+					width: 87px;
+					height: 35px;
+				}
+			}
+		}
+	}
+}
+
+//poppins 300 500 
+//18 desktop, 16 mobile
+//#434861
+//titles: 32px/400 desktop, 26 mobile
+
+//page 1: /complete-solution
+//page 2: /automation-choices
+//form: /complete-solution/get-certificate
+//form: /automation-choices/get-certificate
+
+//http://redroverschool.netlify.app -> main page with links to two lectures
+//http://redroverschool.netlify.app/complete-solution
+//http://redroverschool.netlify.app/get-certificate
+//http://redroverschool.netlify.app/automation-choices
+//http://redroverschool.netlify.app/get-your-certificate
+
+
+//http://redroverschool.netlify.app

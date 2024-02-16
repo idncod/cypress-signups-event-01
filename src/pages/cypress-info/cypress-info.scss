@@ -1,0 +1,48 @@
+@import '../../styles/variables.scss';
+
+.cypress-information-container {
+	margin-top: $spacing-2x;
+
+	.image-container {
+		&.small {
+			padding-left: 20%;
+			padding-right: 20%;
+		}
+
+		img {
+			cursor: pointer;
+		}
+	}
+
+	ul, ol {
+		li {
+			line-height: 30px;
+		}
+	}
+
+	.join-us-container {
+		padding-top: $spacing-3x;
+
+		.join-us {
+			background-color: yellow;
+			padding-left: 5px;
+			padding-right: 5px;
+			font-weight: $site-bold;
+		}
+	}
+	
+	.spacer {
+		margin-top: 40px;
+	}
+
+
+
+
+	@media (min-width: $breakpoint-md-down) {
+		ul, ol {
+			li {
+				line-height: 40px;
+			}
+		}
+	}
+}

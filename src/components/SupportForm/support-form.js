@@ -140,6 +140,8 @@ const SupportForm = ({ source, displayMessage = false }) => {
 						)}
 					</section>
 				)}
+
+				<div className="note">* All fields are required</div>
 				
 				<section>
 					<button type="submit" className="btn btn-primary">Submit</button>

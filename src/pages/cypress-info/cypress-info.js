@@ -47,7 +47,7 @@ const CypressInfo = () => {
 				
 
 				<section>
-					This session will provide helpful information about a question that Cypress frequently hears:&#160; 
+					This session will provide helpful information about a question that Cypress frequently gets:&#160; 
 					<span className="bold">how does Cypress compare to other frameworks such as 
 					Playwright and Selenium?</span>
 				</section>

@@ -3,6 +3,14 @@
 .cypress-capability-container {
 	margin-top: $spacing-2x;
 
+	.author {
+		font-family: $site-default-font-family;
+		font-size: $site-default-mobile-font-size;
+		font-weight: $site-light;
+		font-style: italic;
+		color: #a09e9e;
+	}
+
 	ul, ol {
 		li {
 			line-height: 30px;
@@ -34,6 +42,10 @@
 			li {
 				line-height: 40px;
 			}
+		}
+
+		.author {
+			font-size: $site-default-font-size;
 		}
 	}
 }

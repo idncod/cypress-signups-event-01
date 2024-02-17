@@ -6,7 +6,8 @@ const CypressCapability = () => {
 		<div className="cypress-capability-container">
 			<div className="container">
 				<h1 className="page-headline">
-					Test Automation Choices
+					Session 2: Test Automation Choices  
+					<div className="author">by [name-of-the-presenter]</div>
 				</h1>
 
 				<section className="join-us-container first">

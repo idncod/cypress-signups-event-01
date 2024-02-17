@@ -21,7 +21,8 @@ const CypressInfo = () => {
 		<div className="cypress-information-container">
 			<div className="container">
 				<h1 className="page-headline">
-					A Complete Solution to Ensure Application Quality
+					Session 1: A Complete Solution to Ensure Application Quality 
+					<div className="author">by [name-of-the-presenter]</div>
 				</h1>
 
 				<section>

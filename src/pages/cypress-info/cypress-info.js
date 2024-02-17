@@ -20,18 +20,23 @@ const CypressInfo = () => {
 	return (
 		<div className="cypress-information-container">
 			<div className="container">
-			<section>
-					<span className="bold">
-				A Complete Solution to Ensure Application Quality
-					</span>
-				</section>
+				<h1 className="page-headline">
+					A Complete Solution to Ensure Application Quality
+				</h1>
+
 				<section>
 					How do I make a choice about which test automation framework to use? 
 					There are many popular frameworks with both advantages and disadvantages for my organization.
 				</section>
 
-				<section>
-					There are many popular frameworks with both advantages and disadvantages for my organization.
+				<section className="join-us-container first">
+					<i className="fa-solid fa-link"></i> 
+					Join us for the discussion on <span className="join-us">Thursday, February 29 at 10pm EST</span> via ZOOM at ...
+				</section>
+
+				<section className="spacer">
+					There are also a growing number of QA and engineers who are becoming 
+					familiar with the current testing frameworks
 				</section>
 
 				
@@ -49,8 +54,8 @@ const CypressInfo = () => {
 				<div className="bold"><i className="fa-regular fa-calendar-check"></i> Agenda:</div>
 				<ul>
 					<li><span className="bold">Session length:</span> 60 minutes</li>
-					<li><span className="bold">Presentation length</span> 45 minutes</li>
-					<li><span className="bold">Reserved Q&A</span> 15 minutes</li>
+					<li><span className="bold">Presentation length:</span> 45 minutes</li>
+					<li><span className="bold">Reserved Q&A:</span> 15 minutes</li>
 				</ul>
 
 				<div className="bold"><i className="fa-regular fa-rectangle-list"></i> Outline:</div>

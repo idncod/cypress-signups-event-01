@@ -5,7 +5,16 @@ const CypressCapability = () => {
 	return (
 		<div className="cypress-capability-container">
 			<div className="container">
-				<section>
+				<h1 className="page-headline">
+					Test Automation Choices
+				</h1>
+
+				<section className="join-us-container first">
+					<i className="fa-solid fa-link"></i> 
+					Join us for the discussion on <span className="join-us">Thursday, March 7 at 10pm EST</span> via ZOOM at ...
+				</section>
+
+				<section className="spacer">
 					Cypress is a popular automation test framework that is familiar to many 
 					due to it's widespread adoption. Although Cypress began as an open-source 
 					test runner, the company has recently introduced many new features that 
@@ -21,14 +30,14 @@ const CypressCapability = () => {
 				<div className="bold"><i className="fa-regular fa-calendar-check"></i> Agenda:</div>
 				<ul>
 					<li><span className="bold">Session length:</span> 60 minutes</li>
-					<li><span className="bold">Presentation length</span> 45 minutes</li>
-					<li><span className="bold">Reserved Q&A</span> 15 minutes</li>
+					<li><span className="bold">Presentation length:</span> 45 minutes</li>
+					<li><span className="bold">Reserved Q&A:</span> 15 minutes</li>
 				</ul>
 
 				<div className="bold"><i className="fa-regular fa-rectangle-list"></i> Outline:</div>
 				<ol>
 					<li>
-						<span className="bold">Overview of Cypress</span>;
+						<span className="bold">Overview of Cypress</span>
 					</li>
 					<li>
 						<span className="bold">Timeline</span>&#160;
@@ -59,6 +68,7 @@ const CypressCapability = () => {
 				</ol>
 
 				<section className="join-us-container">
+					<i className="fa-solid fa-link"></i> 
 					Join us on <span className="join-us">Thursday, March 7 at 10pm EST</span> via ZOOM at ...
 				</section>
 

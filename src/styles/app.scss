@@ -31,6 +31,18 @@ body {
     }
 }
 
+.page-headline {
+	font-family: $site-alternative-font-family;
+	font-size: 24px;
+	font-weight: $site-regular;
+	color: #605f5f;
+	margin-bottom: $spacing-4x;
+
+	@media (min-width: $breakpoint-md-down) {
+        font-size: 32px;
+    }
+}
+
 a,
 [role='link'] {
     color: $link-color;

@@ -1,6 +1,8 @@
 @import '../../styles/variables.scss';
 
 .cypress-capability-container {
+	margin-top: $spacing-2x;
+
 	ul, ol {
 		li {
 			line-height: 30px;
@@ -9,6 +11,10 @@
 
 	.join-us-container {
 		padding-top: $spacing-3x;
+
+		&.first {
+			padding-top: 0;
+		}
 
 		.join-us {
 			background-color: yellow;

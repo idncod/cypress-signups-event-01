@@ -22,8 +22,7 @@ const CypressInfo = () => {
 			<div className="container">
 			<section>
 					<span className="bold">
-				How does Cypress compare to other frameworks such as 
-					Playwright and Selenium?
+				A Complete Solution to Ensure Application Quality
 					</span>
 				</section>
 				<section>

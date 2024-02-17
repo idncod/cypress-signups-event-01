@@ -20,6 +20,12 @@ const CypressInfo = () => {
 	return (
 		<div className="cypress-information-container">
 			<div className="container">
+			<section>
+					<span className="bold">
+				How does Cypress compare to other frameworks such as 
+					Playwright and Selenium?
+					</span>
+				</section>
 				<section>
 					How do I make a choice about which test automation framework to use? 
 					There are many popular frameworks with both advantages and disadvantages for my organization.

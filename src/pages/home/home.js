@@ -14,12 +14,12 @@ const Home = () => {
 				</section>
 
 				<section>
-					<div><a href="/cypress-info">Cypress Overview</a></div>
+					<div><a href="/cypress-info">A Complete Solution to Ensure Application Quality</a></div>
 					<div>How does Cypress compare to other framewords such as Playwright and Selenium?</div>
 				</section>
 
 				<section>
-					<div><a href="/cypress-capability">Cypress capabilities</a></div>
+					<div><a href="/cypress-capability">Test Automation Choices</a></div>
 					<div>How does Cypress changing the expectations of what a test automation framework should look like</div>
 				</section>
 

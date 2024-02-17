@@ -30,14 +30,16 @@
 
 	.alert {
 		position: fixed;
-		top: $spacing-2x;
+		top: $spacing-3x;
 		left: 50%;
 		@include translateX(-50%);
 		text-align: center;
 		z-index: 1;
 
 		&.alert-success {
-			background-color: #caf8ca;
+			background-color: #000;
+			border-color: #000;
+			color: #caf8ca;
 		}
 	}
 
@@ -50,6 +52,12 @@
 			.fa-thumbs-up {
 				font-size: 24px;
 			}
+		}
+	}
+
+	@media (min-width: $breakpoint-sm-down) {
+		.alert {
+			width: 360px;
 		}
 	}
 

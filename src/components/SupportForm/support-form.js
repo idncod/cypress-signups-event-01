@@ -17,6 +17,8 @@ const SupportForm = ({ source, displayMessage = false }) => {
 	const [showAlert, setShowAlert] = useState(false);
 	const [showErrorAlert, setShowErrorAlert] = useState(false);
 
+	const [emailErrorMessage, setEmailErrorMessage] = useState("");
+
 	const onNameChange = (e) => {
 		setNameInput(e.target.value);
 	};
@@ -50,12 +52,14 @@ const SupportForm = ({ source, displayMessage = false }) => {
 		if (!emailInput) {
 			setDisplayEmailError(true);
 			isValid = false;
+			setEmailErrorMessage("Please enter your email address");
 		}
 		else {
 			let regex = /\S+@\S+\.\S+/;
 			if (regex.test(emailInput) === false) {
 				setDisplayEmailError(true);
 				isValid = false;
+				setEmailErrorMessage("Please enter valid email address");
 			}
 		}
 
@@ -123,7 +127,7 @@ const SupportForm = ({ source, displayMessage = false }) => {
 					<input id="email" type="text" className={`form-control ${displayEmailError ? 'is-invalid' : ''}`} placeholder="Your Email" required onChange={onEmailChange} />
 					<label htmlFor="email">Your Email</label>
 					{displayEmailError && (
-						<div className="inline-error">Please enter your email address</div>
+						<div className="inline-error">{emailErrorMessage}</div>
 					)}
 				</section>
 

@@ -27,8 +27,8 @@ const Footer = () => {
 				</div>
 
 				<div className="cypress-link-container">
-					<a href="mailto:">Contact Support (a@a.com)</a>
-					|
+					<a href="mailto:rrs.get.help@gmail.com">Contact Support (rrs.get.help@gmail.com)</a>
+					<span className="footer-spacer">|</span>
 					<a href="https://www.cypress.io/">Visit Cypress.io</a>
 				</div>
 			</div>

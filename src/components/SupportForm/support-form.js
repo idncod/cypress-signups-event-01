@@ -110,7 +110,7 @@ const SupportForm = ({ source, displayMessage = false }) => {
 
 			{showAlert && (
 				<div className="alert alert-success" role="alert">
-					Thank you for your submission!
+					Thank you, your question has been successfully submitted!
 				</div>
 			)}
 

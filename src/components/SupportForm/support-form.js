@@ -116,7 +116,7 @@ const SupportForm = ({ source, displayMessage = false }) => {
 
 			<form onSubmit={submitHandler} noValidate>
 				<section className="form-floating col-md-8 col-lg-6">
-					<input id="name" type="text" className={`form-control ${displayNameError ? 'is-invalid' : ''}`} placeholder="Your Name" required onChange={onNameChange} />
+					<input id="name" type="text" className={`form-control ${displayNameError ? 'is-invalid' : ''}`} value={nameInput} placeholder="Your Name" required onChange={onNameChange} />
 					<label htmlFor="name">Your Name</label>
 					{displayNameError && (
 						<div className="inline-error">Please enter your name</div>
@@ -124,7 +124,7 @@ const SupportForm = ({ source, displayMessage = false }) => {
 				</section>
 
 				<section className="form-floating col-md-8 col-lg-6">
-					<input id="email" type="text" className={`form-control ${displayEmailError ? 'is-invalid' : ''}`} placeholder="Your Email" required onChange={onEmailChange} />
+					<input id="email" type="text" className={`form-control ${displayEmailError ? 'is-invalid' : ''}`} value={emailInput} placeholder="Your Email" required onChange={onEmailChange} />
 					<label htmlFor="email">Your Email</label>
 					{displayEmailError && (
 						<div className="inline-error">{emailErrorMessage}</div>
@@ -133,7 +133,7 @@ const SupportForm = ({ source, displayMessage = false }) => {
 
 				{displayMessage && (
 					<section className="form-floating col-md-10 col-lg-8">
-						<textarea id="message" className={`form-control question-textarea ${displayMessageError ? 'is-invalid' : ''}`} placeholder="Your Question" required onChange={onMessageChange} />
+						<textarea id="message" className={`form-control question-textarea ${displayMessageError ? 'is-invalid' : ''}`} value={messageInput} placeholder="Your Question" required onChange={onMessageChange} />
 						<label htmlFor="message">Your Question</label>
 						{displayMessageError && (
 							<div className="inline-error">Please enter your question</div>
@@ -148,7 +148,7 @@ const SupportForm = ({ source, displayMessage = false }) => {
 
 					{displaySuccessIcon && (
 						<div className="successfully-submitted-container">
-							<i className="fa-regular fa-thumbs-up"></i> Successfully submitted!
+							<i className="fa-regular fa-thumbs-up"></i> Your question has been successfully submitted!
 						</div>
 					)}
 				</section>

@@ -10,17 +10,34 @@ const Home = () => {
 				</section>
 
 				<section>
-					Here is a list of the upcoming events:
+					Here is a list of the upcoming sessions:
 				</section>
 
 				<section>
-					<div><a href="/cypress-info">A Complete Solution to Ensure Application Quality</a></div>
-					<div>How does Cypress compare to other framewords such as Playwright and Selenium?</div>
+					<div>
+						<span class="bold">Session 1:</span>&#160;
+						<a href="/cypress-info">A Complete Solution to Ensure Application Quality</a>
+					</div>
+					<div>
+						<span class="bold">Overview:</span> How does Cypress compare to other frameworкs 
+						such as Playwright and Selenium?
+					</div>
+					<div>
+						<span class="bold">Session Time:</span> Thursday, February 29 at 10pm EST</div>
 				</section>
 
 				<section>
-					<div><a href="/cypress-capability">Test Automation Choices</a></div>
-					<div>How does Cypress changing the expectations of what a test automation framework should look like</div>
+					<div>
+						<span class="bold">Session 2:</span>&#160;
+						<a href="/cypress-capability">Test Automation Choices</a>
+					</div>
+					<div>
+						<span class="bold">Overview:</span> How does Cypress changing the expectations 
+						of what a test automation framework should look like
+					</div>
+					<div>
+						<span class="bold">Session Time:</span> Thursday, March 7 at 10pm EST
+					</div>
 				</section>
 
 				<section>

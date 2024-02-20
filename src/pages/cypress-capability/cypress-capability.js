@@ -13,7 +13,7 @@ const CypressCapability = () => {
 				<section className="join-us-container first">
 					<i className="fa-solid fa-link"></i> Join us for the discussion on&#160; 
 					<span className="join-us">Thursday, March 7 at 10pm EST</span>&#160;
-					<a href="#">via ZOOM</a>
+					via ZOOM
 				</section>
 
 				<section className="spacer">
@@ -72,7 +72,7 @@ const CypressCapability = () => {
 				<section className="join-us-container">
 					<i className="fa-solid fa-link"></i> Join us on&#160;
 					<span className="join-us">Thursday, March 7 at 10pm EST</span>&#160;
-					<a href="#">via ZOOM</a>
+					via ZOOM
 				</section>
 
 				<div className="spacer">&#160;</div>

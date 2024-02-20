@@ -22,7 +22,7 @@ const CypressInfo = () => {
 			<div className="container">
 				<h1 className="page-headline">
 					Session 1: A Complete Solution to Ensure Application Quality 
-					<div className="author">by [name-of-the-presenter]</div>
+					<div className="author">by Cypress representative</div>
 				</h1>
 
 				<section>
@@ -31,8 +31,9 @@ const CypressInfo = () => {
 				</section>
 
 				<section className="join-us-container first">
-					<i className="fa-solid fa-link"></i> Join us for the discussion on 
-					<span className="join-us">Thursday, February 29 at 10pm EST</span> via ZOOM at ...
+					<i className="fa-solid fa-link"></i> Join us for the discussion on&#160;
+					<span className="join-us">Thursday, February 29 at 10pm EST</span>&#160;
+					<a href="https://us02web.zoom.us/meeting/register/tZMlf-6urD4oEtzquQcg0umrzWTFN0Y_eNVt">via ZOOM</a>.
 				</section>
 
 				<section className="spacer">
@@ -110,8 +111,9 @@ const CypressInfo = () => {
 				</ol>
 
 				<section className="join-us-container">
-					<i className="fa-solid fa-link"></i> Join us on 
-					<span className="join-us">Thursday, February 29 at 10pm EST</span> via ZOOM at ...
+					<i className="fa-solid fa-link"></i> Join us on&#160;
+					<span className="join-us">Thursday, February 29 at 10pm EST</span>&#160;
+					<a href="https://us02web.zoom.us/meeting/register/tZMlf-6urD4oEtzquQcg0umrzWTFN0Y_eNVt">via ZOOM</a>.
 				</section>
 
 				<div className="spacer">&#160;</div>

@@ -7,12 +7,13 @@ const CypressCapability = () => {
 			<div className="container">
 				<h1 className="page-headline">
 					Session 2: Test Automation Choices  
-					<div className="author">by [name-of-the-presenter]</div>
+					<div className="author">by Cypress representative</div>
 				</h1>
 
 				<section className="join-us-container first">
-					<i className="fa-solid fa-link"></i> Join us for the discussion on 
-					<span className="join-us">Thursday, March 7 at 10pm EST</span> via ZOOM at ...
+					<i className="fa-solid fa-link"></i> Join us for the discussion on&#160; 
+					<span className="join-us">Thursday, March 7 at 10pm EST</span>&#160;
+					<a href="">via ZOOM</a>
 				</section>
 
 				<section className="spacer">
@@ -69,8 +70,9 @@ const CypressCapability = () => {
 				</ol>
 
 				<section className="join-us-container">
-					<i className="fa-solid fa-link"></i> Join us on 
-					<span className="join-us">Thursday, March 7 at 10pm EST</span> via ZOOM at ...
+					<i className="fa-solid fa-link"></i> Join us on&#160;
+					<span className="join-us">Thursday, March 7 at 10pm EST</span>&#160;
+					<a href="">via ZOOM</a>
 				</section>
 
 				<div className="spacer">&#160;</div>

@@ -1,10 +1,10 @@
 import SupportForm from "../../components/SupportForm/support-form";
 
-import './cypress-capability-cert.scss';
+import './cypress-choices-cert.scss';
 
-const CypressCapabilityCert = () => {
+const CypressChoicesCert = () => {
 	return (
-		<div className="cypress-capability-certificate-container">
+		<div className="cypress-choices-certificate-container">
 			<div className="container">
 				<h1 className="page-headline">Register to receive your certificate</h1>
 
@@ -12,10 +12,10 @@ const CypressCapabilityCert = () => {
 					Please provide the name and email address that will be used for the certificate.
 				</section>
 
-				<SupportForm source="cypress_capability_certificate" />
+				<SupportForm source="cypress_choices_certificate" />
 			</div>
 		</div>
 	);
 };
 
-export default CypressCapabilityCert;
+export default CypressChoicesCert;

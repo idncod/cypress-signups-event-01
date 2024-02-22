@@ -1,7 +1,13 @@
 @import '../../styles/variables.scss';
 
-.cypress-capability-container {
+.cypress-choices-container {
 	margin-top: $spacing-2x;
+
+	ul, ol {
+		li {
+			line-height: 30px;
+		}
+	}
 
 	.author {
 		font-family: $site-default-font-family;
@@ -11,9 +17,14 @@
 		color: #a09e9e;
 	}
 
-	ul, ol {
-		li {
-			line-height: 30px;
+	.image-container {
+		&.small {
+			padding-left: 20%;
+			padding-right: 20%;
+		}
+
+		img {
+			cursor: pointer;
 		}
 	}
 
@@ -35,6 +46,8 @@
 	.spacer {
 		margin-top: 40px;
 	}
+
+
 
 
 	@media (min-width: $breakpoint-md-down) {

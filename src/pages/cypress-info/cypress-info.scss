@@ -3,29 +3,18 @@
 .cypress-information-container {
 	margin-top: $spacing-2x;
 
+	ul, ol {
+		li {
+			line-height: 30px;
+		}
+	}
+
 	.author {
 		font-family: $site-default-font-family;
 		font-size: $site-default-mobile-font-size;
 		font-weight: $site-light;
 		font-style: italic;
 		color: #a09e9e;
-	}
-
-	.image-container {
-		&.small {
-			padding-left: 20%;
-			padding-right: 20%;
-		}
-
-		img {
-			cursor: pointer;
-		}
-	}
-
-	ul, ol {
-		li {
-			line-height: 30px;
-		}
 	}
 
 	.join-us-container {

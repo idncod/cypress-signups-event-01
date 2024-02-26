@@ -8,8 +8,10 @@ const CypressInfo = () => {
 				<h1 className="page-headline">
 					Session 1: A Complete Solution to Ensure Application Quality 
 					<div className="author">
-						by Dan Johansen (Product @ Cypress) and 
-						Mark Noonan (Senior Software Engineer @ Cypress)
+						by Dan Johansen (Product @ Cypress),  
+						Mark Noonan (Senior Software Engineer @ Cypress), 
+						Megan Amos (Customer Success @ Cypress) and 
+						Eric Swanson (Support Engineering @ Cypress)
 					</div>
 				</h1>
 

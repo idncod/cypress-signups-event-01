@@ -84,7 +84,7 @@ const CypressInfo = () => {
 
 				<section>
 					Do you have other questions? Please fill out the form below and Cyress representative 
-					will try to answer them.
+					will try to answer them during the session.
 				</section>
 
 				<section>

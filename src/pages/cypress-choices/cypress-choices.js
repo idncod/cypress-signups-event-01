@@ -23,15 +23,18 @@ const CypressChoices = () => {
 				<h1 className="page-headline">
 					Session 2: Test Automation Choices  
 					<div className="author">
-						by Dan Johansen (Product @ Cypress) and 
-						Mark Noonan (Senior Software Engineer @ Cypress)
+						by Dan Johansen (Product @ Cypress),  
+						Mark Noonan (Senior Software Engineer @ Cypress), 
+						Megan Amos (Customer Success @ Cypress) and 
+						Eric Swanson (Support Engineering @ Cypress)
 					</div>
 				</h1>
 
 
 				<section>
 					How do I make a choice about which test automation framework to use? 
-					There are many popular frameworks with both advantages and disadvantages for my organization.
+					There are many popular frameworks with both advantages and disadvantages 
+					for my organization.
 				</section>
 
 				<section className="join-us-container first">
@@ -41,8 +44,8 @@ const CypressChoices = () => {
 				</section>
 
 				<section className="spacer">
-					There are also a growing number of QA and engineers who are becoming 
-					familiar with the current testing frameworks
+					There are also a growing number of QA professionals and engineers 
+					who are becoming familiar with the current testing frameworks:
 				</section>
 
 				
@@ -52,10 +55,24 @@ const CypressChoices = () => {
 				
 
 				<section>
-					This session will provide helpful information about a question that Cypress frequently gets:&#160; 
-					<span className="bold">how does Cypress compare to other frameworks such as 
-					Playwright and Selenium?</span>
+					This session will provide helpful information about a question 
+					that Cypress hears: how does Cypress compare to other test 
+					automation frameworks?
 				</section>
+
+				<section>
+					Join us as we discuss many of the considerations that will be important 
+					as your organization adopts a test automation framework that will 
+					benefit you for years to come. Areas to be explored include:
+				</section>
+
+				<ul>
+					<li>Origins of frameworks</li>
+					<li>Should I test inside or outside the browser?</li>
+					<li>Setup and configuration</li>
+					<li>Matrix of similarities and differences</li>
+					<li>Some of my tests failed. Now what?</li>
+				</ul>
 
 				<div className="bold"><i className="fa-regular fa-calendar-check"></i> Agenda:</div>
 				<ul>
@@ -63,56 +80,6 @@ const CypressChoices = () => {
 					<li><span className="bold">Presentation length:</span> 45 minutes</li>
 					<li><span className="bold">Reserved Q&A:</span> 15 minutes</li>
 				</ul>
-
-				<div className="bold"><i className="fa-regular fa-rectangle-list"></i> Outline:</div>
-				<ol>
-					<li>
-						<span className="bold">Introduction.</span>&#160;
-						Presented by Cypress but showing market research and blogs about all three frameworks
-					</li>
-					<li>
-						<span className="bold">Origins of Frameworks</span>&#160;
-						and current usage trajectories
-					</li>
-					<li>
-						<span className="bold">Should I test inside or outside the browser?</span>
-
-						<ol type="a">
-							<li>Real Life Examples</li>
-						</ol>
-					</li>
-					<li>
-						<span className="bold">Setup and configuration</span> overview
-					</li>
-					<li>
-						<span className="bold">Matrix and Overview of Test Capabilities</span>
-
-						<ol type="a">
-							<li>Architecture</li>
-							<li>Frameworks Supported</li>
-							<li>Languages Supported</li>
-							<li>Browsers Supported</li>
-							<li>Code Generation</li>
-							<li>Flakiness</li>
-							<li>Speed</li>
-							<li>Screenshots and Logs</li>
-							<li>Integration Capabilities</li>
-							<li>Replay</li>
-							<li>Reporting</li>
-						</ol>
-					</li>
-					<li>
-						<span className="bold">How to troubleshoot results</span>
-
-						<ol type="a">
-							<li>Local</li>
-							<li>With CI</li>
-						</ol>
-					</li>
-					<li>
-						<span className="bold">Q&A</span>
-					</li>
-				</ol>
 
 				<section className="join-us-container">
 					<i className="fa-solid fa-link"></i> Join us on&#160;
@@ -124,7 +91,7 @@ const CypressChoices = () => {
 
 				<section>
 					Do you have questions? Please fill out the form below and Cyress representative 
-					will try to answer them.
+					will try to answer them during the session.
 				</section>
 
 				<section>

@@ -26,19 +26,19 @@ const Home = () => {
 						<span class="bold">Session Time:</span> Thursday, February 29 at 10pm EST</div>
 				</section>
 
-				{/* <section>
+				<section>
 					<div>
 						<span class="bold">Session 2:</span>&#160;
 						<a href="/cypress-choices">Test Automation Choices</a>
 					</div>
 					<div>
-						<span class="bold">Overview:</span> How does Cypress compare to other frameworкs 
-						such as Playwright and Selenium?
+						<span class="bold">Overview:</span> How do I make a choice about which test 
+						automation framework to use?
 					</div>
 					<div>
 						<span class="bold">Session Time:</span> Thursday, March 7 at 10pm EST
 					</div>
-				</section> */}
+				</section>
 
 				<section>
 					Please click on above links for more information.

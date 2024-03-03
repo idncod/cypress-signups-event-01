@@ -19,7 +19,7 @@ const Home = () => {
 						<a href="/cypress-info">A Complete Solution to Ensure Application Quality</a>
 					</div>
 					<div>
-						<span class="bold">Overview:</span> How does Cypress changing the expectations 
+						<span class="bold">Overview:</span> How does Cypress change the expectations 
 						of what a test automation framework should look like
 					</div>
 					<div>

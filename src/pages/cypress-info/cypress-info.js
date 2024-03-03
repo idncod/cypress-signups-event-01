@@ -16,10 +16,10 @@ const CypressInfo = () => {
 				</h1>
 
 				<section className="join-us-container first">
-					<i className="fa-solid fa-link"></i> Join us for the discussion on&#160;
-					<span className="join-us">Thursday, February 29 at 10pm EST</span>&#160;
-					<a href="https://us02web.zoom.us/meeting/register/tZMlf-6urD4oEtzquQcg0umrzWTFN0Y_eNVt">via ZOOM</a>.
+					<i className="fa-solid fa-video"></i> Watch the recording of this session&#160; 
+					<a href="https://www.youtube.com/watch?v=Vtq2KoPacGg">here</a>.
 				</section>
+
 
 				<section className="spacer">
 					Cypress is a popular automation test framework that is familiar to many 
@@ -75,12 +75,11 @@ const CypressInfo = () => {
 				</ol>
 
 				<section className="join-us-container">
-					<i className="fa-solid fa-link"></i> Join us on&#160;
-					<span className="join-us">Thursday, February 29 at 10pm EST</span>&#160;
-					<a href="https://us02web.zoom.us/meeting/register/tZMlf-6urD4oEtzquQcg0umrzWTFN0Y_eNVt">via ZOOM</a>.
+					<i className="fa-solid fa-video"></i> Watch the recording of this session&#160; 
+					<a href="https://www.youtube.com/watch?v=Vtq2KoPacGg">here</a>.
 				</section>
 
-				<div className="spacer">&#160;</div>
+				{/* <div className="spacer">&#160;</div>
 
 				<section>
 					Do you have other questions? Please fill out the form below and Cyress representative 
@@ -89,7 +88,7 @@ const CypressInfo = () => {
 
 				<section>
 					<SupportForm source="cypress_info_questionnaire" displayMessage />
-				</section>
+				</section> */}
 			</div>
 		</div>
 	);

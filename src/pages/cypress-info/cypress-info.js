@@ -1,4 +1,3 @@
-import SupportForm from '../../components/SupportForm/support-form';
 import './cypress-info.scss';
 
 const CypressInfo = () => {

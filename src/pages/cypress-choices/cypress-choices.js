@@ -40,7 +40,7 @@ const CypressChoices = () => {
 				<section className="join-us-container first">
 					<i className="fa-solid fa-link"></i> Join us for the discussion on&#160; 
 					<span className="join-us">Thursday, March 7 at 10pm EST</span>&#160;
-					via ZOOM
+					<a href="https://us02web.zoom.us/meeting/register/tZEucO6uqz0pG9e58o9962tnM4v28J4zezVk">via ZOOM</a>.
 				</section>
 
 				<section className="spacer">
@@ -84,7 +84,7 @@ const CypressChoices = () => {
 				<section className="join-us-container">
 					<i className="fa-solid fa-link"></i> Join us on&#160;
 					<span className="join-us">Thursday, March 7 at 10pm EST</span>&#160;
-					via ZOOM
+					<a href="https://us02web.zoom.us/meeting/register/tZEucO6uqz0pG9e58o9962tnM4v28J4zezVk">via ZOOM</a>.
 				</section>
 
 				<div className="spacer">&#160;</div>

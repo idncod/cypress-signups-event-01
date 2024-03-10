@@ -38,9 +38,8 @@ const CypressChoices = () => {
 				</section>
 
 				<section className="join-us-container first">
-					<i className="fa-solid fa-link"></i> Join us for the discussion on&#160; 
-					<span className="join-us">Thursday, March 7 at 10pm EST</span>&#160;
-					<a href="https://us02web.zoom.us/meeting/register/tZEucO6uqz0pG9e58o9962tnM4v28J4zezVk">via ZOOM</a>.
+					<i className="fa-solid fa-video"></i> Watch the recording of this session&#160; 
+					<a href="https://www.youtube.com/watch?v=mWa7-NHTv2o">here</a>.
 				</section>
 
 				<section className="spacer">
